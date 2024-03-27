@@ -339,6 +339,31 @@
     overflow-x: scroll;
 }
 
+.row-box {
+    width: 1500px;
+}
+
+.section-3 {
+    min-height: 130vh;
+}
+
+.color-4d {
+    color: #4D4D4D;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.preview1 {
+    top: 2%;
+    left: 0%;
+}
+
+.preview2 {
+    bottom: 0%;
+    right: 0%;
+}
 
 
 
@@ -415,5 +440,19 @@
         bottom: 0%;
         top: 0%;
         border-bottom: 0px;
+    }
+
+    .section-3 {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width:1440px) {
+    .overflow1 {
+        overflow: visible;
+    }
+
+    .row-box {
+        width: 100%;
     }
 }
