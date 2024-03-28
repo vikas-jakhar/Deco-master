@@ -263,7 +263,7 @@
 
 .paint2 {
     left: 0%;
-    bottom: 0%;
+    bottom: -1%;
 }
 
 .left-0 {
@@ -474,6 +474,10 @@
     font-size: 48px;
 }
 
+.font-s-40 {
+    font-size: 40px;
+}
+
 .font-s-64 {
     font-size: 64px;
 }
@@ -485,6 +489,45 @@
 .font-s-24 {
     font-size: 24px;
 }
+
+.section-10 {
+    background: #010080;
+    min-height: 130vh;
+}
+
+.scale1-img {
+    transition: all 0.3s ease-in-out;
+}
+
+.scale1:hover {
+    scale: 1.05;
+}
+
+.border-r-15 {
+    border-radius: 15px;
+}
+
+.box-s {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.empty {
+    width: 11%;
+    position: relative;
+    z-index: -1;
+    display: none;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.img11 {
+    top: -200px;
+}
+
+
+
 
 @media (min-width:576px) {
     .line1 {
@@ -508,6 +551,15 @@
         width: 100%;
         right: 0%;
         bottom: 31.66%;
+    }
+
+    .font-s-sm-48 {
+        font-size: 48px;
+    }
+
+    .section-10 {
+        background: #010080;
+        min-height: 30vh;
     }
 }
 
@@ -609,5 +661,29 @@
 
     .row-box {
         width: 100%;
+    }
+
+    .r-box-1 {
+        position: absolute;
+        top: 50%;
+        left: 22%;
+    }
+
+    .r-box-2 {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+    }
+
+    .empty {
+        display: flex;
+    }
+
+    .section-10 {
+        background: #010080;
+    }
+
+    .pb-250 {
+        padding-bottom: 350px;
     }
 }
