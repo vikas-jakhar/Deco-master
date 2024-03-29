@@ -25,10 +25,11 @@
     background-image: linear-gradient(to bottom, white, #D2DA60);
     justify-content: center;
     z-index: 11;
-    transition: all 0.3s ease-in-out;
+    
 }
 
 .showlist {
+    transition: all 0.3s ease-in-out;
     right: 0%;
 }
 
@@ -799,10 +800,12 @@
 
 @keyframes scroll1 {
     0% {
+        bottom: 2%;
         background-color: #010080;
     }
 
     50% {
+        bottom: 3%;
         background-color: #DCDCDC;
     }
 }
@@ -867,6 +870,7 @@
         background: transparent;
         justify-content: center;
         background-image: none;
+        transition: none;
     }
 
     .menuicon {
