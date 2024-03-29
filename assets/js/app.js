@@ -24,4 +24,14 @@ scrollicon.addEventListener("click", () => {
         top: 0,
         behavior: "smooth",
     })
-})
+});
+
+let loader = document.querySelector(".preloader");
+
+loader.classList.remove("opa_0");
+
+
+setTimeout(() => {
+    loader.classList.add("opa_0");
+    loader.classList.add("disp_none");
+}, 2000);
